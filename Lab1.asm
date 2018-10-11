@@ -3,12 +3,12 @@
 .data
     a dw 5
     b dw 5
-	c dw 0
-	d dw 7
+    c dw 0
+    d dw 7
 .code
 main:
 	mov ax, @data
-    mov ds, ax
+	mov ds, ax
     	
 	mov ax, [a]
 	mul [c]		
@@ -46,4 +46,4 @@ end_if:
 	mov ax, 4c00h
 	int 21h
 	
-end main
+end main 
