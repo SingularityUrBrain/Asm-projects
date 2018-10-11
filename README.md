@@ -1,2 +1,2 @@
 # Asm-projects
-For labs
+Simple tasks in assembly language
